@@ -1,0 +1,30 @@
+.gridContainer {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+  gap: 60px;
+  position: relative;
+}
+
+.box {
+  width: 100px;
+  height: 100px;
+  background-color: #d3bff0;
+}
+
+.lastBox {
+    background-color: red;
+}
+
+.svg {
+  margin-top: 20px;
+}
+
+.path {
+  stroke-width: 2;
+}
+
+.polygon {
+  transform: rotate(45deg);
+}
+
+/* use media queries to go from 3 to 2 columns*/
